@@ -1,0 +1,9 @@
+An Efficient algorithm for generating prime numbers is Sieve of Eratosthenes.
+
+It is an algorithm used to find prime numbers upto a given limit.
+It does so by iteratively marking as composite (i.e., not prime) the multiples of each prime, starting with the first prime number, 2. 
+The multiples of a given prime are generated as a sequence of numbers starting from that prime, with constant difference between them that
+is equal to that prime. This is the sieve's key distinction from using trial division to sequentially test each number for 
+divisibility by each prime.
+
+
